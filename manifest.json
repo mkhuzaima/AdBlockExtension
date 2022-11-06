@@ -1,0 +1,10 @@
+{
+    "name": "Ad Blocker", 
+    "description": "Blocks ads on any website",
+    "manifest_version": 2,
+    "version": "1.0", 
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
