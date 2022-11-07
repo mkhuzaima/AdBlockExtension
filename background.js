@@ -2,11 +2,11 @@
 
 // block extension
 listOfBlockedUrls = [
-	"*://partner.googleadservices.com/*",
-	"*://creative.ak.fbcdn.net/*",
-	"*://*.exponential.com/*",
-	"*://*.quantserve.com/*",
-	"*://*.scorecardresearch.com/*",
+    "*://partner.googleadservices.com/*",
+    "*://creative.ak.fbcdn.net/*",
+    "*://*.exponential.com/*",
+    "*://*.quantserve.com/*",
+    "*://*.scorecardresearch.com/*",
     "*://*.doubleclick.net/*",
     "*://*.googlesyndication.com/*",
     "*://*.googletagservices.com/*",
@@ -21,7 +21,8 @@ listOfBlockedUrls = [
     "*://*.cdn.doubleclick.net/*",
     "*://*.cdn.googletagservices.com/*",
     "*://*.cdn.googleadservices.com/*",
-    "*://*.cdn.zedo.com/*"
+    "*://*.cdn.zedo.com/*",
+    "https://www.youtube.com/get_midroll_info*"
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
